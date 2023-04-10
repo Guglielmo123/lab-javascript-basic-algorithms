@@ -62,5 +62,5 @@ for(let i=0; i<longText.length; i++){
     }
 }
 console.log(wordCount)*/
-let etCounter = longText.split("et").length;
+let etCounter = longText.split(" et ").length;
 console.log(etCounter);
